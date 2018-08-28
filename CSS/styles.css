@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar-wrapper {
+    display: flex;
+    background-color: slategrey;
+}
+
+.navbar-item {
+    padding: .8em;
+}
+
+.navbar-item:hover {
+    background-color: lightslategray;
+    font-weight: 700;
+    transition: ease all .2s;
+}
+
+.navbar-item a {
+    color: white;
+    text-decoration: none;
+}
