@@ -25,4 +25,24 @@
 }
 
 .footer-wrapper {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    background-color: #eaeaea;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-wrapper a,
+.social-links a {
+    padding: .5em;
+    color: gray;
+    font-size: .8em;
+    text-decoration: none;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
 }
