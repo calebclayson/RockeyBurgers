@@ -4,9 +4,14 @@
     font-family: sans-serif;
 }
 
+.content-wrapper {
+    position: relative;
+    height: 100vh;
+}
+
 .navbar-wrapper {
     display: flex;
-    background-color: slategrey;
+    background-color: black;
 }
 
 .navbar-item {
@@ -14,9 +19,9 @@
 }
 
 .navbar-item:hover {
-    background-color: lightslategray;
+    background-color: #f1a536;
     font-weight: 700;
-    transition: ease all .2s;
+    transition: ease all .21s;
 }
 
 .navbar-item a {
@@ -25,7 +30,7 @@
 }
 
 .footer-wrapper {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     display: flex;
     background-color: #eaeaea;
@@ -45,4 +50,30 @@
 .logo-wrapper {
     display: flex;
     justify-content: center;
+}
+
+.burger-img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.burger-img-wrapper img {
+    width: 70%;
+    height: 70%;
+    padding: 4em;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan {
+    font-size: 2.8em;
+    padding: 1em;
+    padding-bottom: none;
+    margin: 0;
+    margin-bottom: -1em;
 }
