@@ -1,0 +1,58 @@
+.location-wrapper {
+    padding: 3em 0;
+}
+
+.maps-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    padding-top: 2em;
+}
+
+.local-container {
+    justify-content: left;
+    align-content: center;
+}
+
+.location1 {
+    width: 25%;
+    height: 100%;
+    margin-right: 1em;
+    margin-left: auto;
+}
+
+.location2 {
+    width: 25%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: 1em;
+}
+
+.l-1 {
+    justify-content: center;
+    align-items: center;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.l-2 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.l-3 {
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+.l-4 {
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
