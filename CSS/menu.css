@@ -1,0 +1,39 @@
+.menu-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
+.menu-heading {
+    font-size: 1.8em;
+    text-decoration: underline;
+    font-weight: 550;
+}
+
+.big-section {
+    padding: 1em 0;
+}
+
+.small-section {
+    padding: .5em 0;
+}
+
+.menu-big-subheading {
+    font-size: 1.8em;
+    font-weight: 550;
+}
+
+.menu-subheading {
+    font-size: 1.2em;
+    font-weight: 550;
+}
+
+.menu-left {
+    padding-right: 10em;
+}
+
+.menu-right {
+    margin-top: -13em;
+}
