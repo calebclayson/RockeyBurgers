@@ -1,0 +1,31 @@
+form * {
+    font-size: 1.2em;
+}
+
+input {
+    padding: .2em;
+    width: 20em;
+    margin-left: 1em;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 1em;
+    padding: 2em;
+    padding-bottom: 4em;
+}
+
+select {
+    width: 50%;
+}
+
+.check {
+    width: 1em;
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: space-between;
+}
