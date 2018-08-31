@@ -1,0 +1,36 @@
+.slogan {
+    font-size: 1.8em;
+    text-align: center;
+    padding: 1.5em;
+}
+
+.video-wrapper {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+video {
+    width: 40%;
+}
+
+.about-text-wrapper {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 3em;
+}
+
+p {
+    font-size: 1.4em;
+    padding: 1em;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.highlight-paragraph {
+    color: red;
+    text-align: center;
+    font-size: 1.45em;
+}
