@@ -53,40 +53,39 @@
             </div>
         </div>
     </div>
+    <script>
+        document.getElementById("itm1").addEventListener("click", toggleItem1);
+        document.getElementById("itm2").addEventListener("click", toggleItem2);
+    
+        let a = true;
+        let b = true;
+    
+        function toggleItem1 () {
+            let element = document.getElementById("ans1");
+            if (a) {
+                element.classList.add("hidden");
+                element.classList.remove("visible");
+                a = false;
+            } else {
+                element.classList.add("visible");
+                element.classList.add("hidden");
+                a = true;
+            }
+        }
+    
+        function toggleItem2 () {
+            let element = document.getElementById("ans2");
+            if (b) {
+                element.classList.add("hidden");
+                element.classList.remove("visible");
+                b = false;
+            } else {
+                element.classList.add("visible");
+                element.classList.add("hidden");
+                b = true;
+            }
+        }
+    </script>
 </body>
-
-<script>
-    document.getElementById("itm1").addEventListener("click", toggleItem1);
-    document.getElementById("itm2").addEventListener("click", toggleItem2);
-
-    let a = true;
-    let b = true;
-
-    function toggleItem1 () {
-        let element = document.getElementById("ans1");
-        if (a) {
-            element.classList.add("hidden");
-            element.classList.remove("visible");
-            a = false;
-        } else {
-            element.classList.add("visible");
-            element.classList.add("hidden");
-            a = true;
-        }
-    }
-
-    function toggleItem2 () {
-        let element = document.getElementById("ans2");
-        if (b) {
-            element.classList.add("hidden");
-            element.classList.remove("visible");
-            b = false;
-        } else {
-            element.classList.add("visible");
-            element.classList.add("hidden");
-            b = true;
-        }
-    }
-</script>
 
 </html>
