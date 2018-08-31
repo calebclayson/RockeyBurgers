@@ -5,6 +5,7 @@
     <title>FAQ</title>
     <meta charset='UTF-8' />
     <link rel="stylesheet" type="text/css" href="../CSS/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/FAQ.css" />
 </head>
 
 <body>
@@ -17,7 +18,32 @@
             <div class="navbar-item navbar-jobs"><a href="jobs.html">Jobs</a></div>
             <div class="navbar-item navbar-about"><a href="about.html">About</a></div>
         </div>
-        <!-- insert FAQ -->
+
+        <div class="faq-wrapper">
+            <div class="item1" id="itm1">
+                <div class="question">Why is your Rockey Burger So Expensive?</div>
+                <div class="answer hidden" id="ans1">
+                    <p>
+                        We focus on making meals with thebest and freshest ingredients, like humanely-raised beef that is ground fresh each day,
+                        organic chicken, and Rockey Family Dairy’s organic cream for our ice cream cones, sundaes and shakes.
+                    </p>
+                    <p>
+                        Our commitment to freshness and quality means higher prices than you’d find at traditional fast-food burger chains. It also
+                        means food that tastes way better — because, well, it is.
+                    </p>
+                </div>
+            </div>
+            <div class="item2" id="itm2">
+                <div class="question">Where does your beef come from?</div>
+                <div class="answer hidden" id="ans2">
+                    <p>
+                        We source our humanely-raised, vegetarian-fed beef from local, family-owned ranches. We use an 85% to 15% protein to fat
+                        blend, a mixture of the lean protein and the marbling found on in a cut of steak for our ground beef.
+                        The mixture is ground daily, and thus, our burgers taste so amazing.
+                    </p>
+                </div>
+            </div>
+        </div>
 
         <div class="footer-wrapper">
             <a class="subscribe" href="subscribe.html">Subscribe</a>
@@ -28,5 +54,39 @@
         </div>
     </div>
 </body>
+
+<script>
+    document.getElementById("itm1").addEventListener("click", toggleItem1);
+    document.getElementById("itm2").addEventListener("click", toggleItem2);
+
+    let a = true;
+    let b = true;
+
+    function toggleItem1 () {
+        let element = document.getElementById("ans1");
+        if (a) {
+            element.classList.add("hidden");
+            element.classList.remove("visible");
+            a = false;
+        } else {
+            element.classList.add("visible");
+            element.classList.add("hidden");
+            a = true;
+        }
+    }
+
+    function toggleItem2 () {
+        let element = document.getElementById("ans2");
+        if (b) {
+            element.classList.add("hidden");
+            element.classList.remove("visible");
+            b = false;
+        } else {
+            element.classList.add("visible");
+            element.classList.add("hidden");
+            b = true;
+        }
+    }
+</script>
 
 </html>

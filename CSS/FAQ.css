@@ -1,0 +1,33 @@
+.faq-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+}
+
+.item1 {
+    padding: 2em;
+    padding-bottom: 0;
+    cursor: pointer;
+}
+
+.item2 {
+    padding: 2em;
+    cursor: pointer;
+}
+
+.question {
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+p {
+    padding: .5em;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
