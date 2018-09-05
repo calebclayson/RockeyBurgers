@@ -19,6 +19,8 @@ form {
 
 select {
     width: 50%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .check {
@@ -26,6 +28,11 @@ select {
 }
 
 .checkbox-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-wrapper {
     display: flex;
     justify-content: space-between;
 }

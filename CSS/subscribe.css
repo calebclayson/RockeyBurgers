@@ -13,21 +13,17 @@ form {
     padding: 1em;
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 input {
     font-size: 1em;
     padding: .5em;
-    width: fill;
     margin-left: 1em;
-    flex-grow: 2;
+    width: 75%;
 }
 
 .title {
     font-size: 2em;
     text-align: center;
-}
-
-.text {
-    flex-grow: 1;
 }
