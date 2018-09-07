@@ -31,3 +31,22 @@ p {
 .visible {
     display: block;
 }
+
+.head {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.faq-title {
+    font-size: 9em;
+}
+
+.clme {
+    font-size: .5em;
+    font-weight: 300;
+    display: none;
+}
+
+.question:hover > .clme {
+    display: inline-block;
+}
