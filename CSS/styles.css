@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .content-wrapper {
@@ -46,4 +48,20 @@
     color: gray;
     font-size: .8em;
     text-decoration: none;
+}
+
+input {
+    border-radius: .5em;
+    border: 1px solid black;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+textarea {
+    padding: .5em;
 }
